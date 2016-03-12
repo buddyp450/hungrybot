@@ -1,0 +1,27 @@
+{
+  "name": "hungrybot",
+  "version": "0.0.1",
+  "description": "Hungry bot helps organize hungry teams.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buddyp450/hungrybot.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "buddyp450@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buddyp450/hungrybot/issues"
+  },
+  "homepage": "https://github.com/buddyp450/hungrybot#readme"
+}
