@@ -1,13 +1,15 @@
 'use strict';
 const Botkit = require('botkit');
 const controller = Botkit.slackbot({});
-const examplebot = require('./bots/examplebot');
+const token = require('./bots/examplebot');
+
+const examplebot = controller.spawn(token);
 
 examplebot.startRTM((err, bot, payload) => {
     if (err) {
         console.error(err);
     } else {
-        console.log(bot, payload);
+        //console.log(bot, payload);
     }
 });
 
